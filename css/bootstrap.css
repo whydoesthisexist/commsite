@@ -5037,8 +5037,8 @@ tbody.collapse.show {
 }
 
 .jumbotron {
+  margin-bottom: 20px; !important
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
   background-color: #ecf0f1;
   border-bottom-right-radius: 0.7rem;
   border-bottom-left-radius: 0.7rem;
