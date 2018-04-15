@@ -672,6 +672,10 @@ pre code {
     top: -15px;
     margin-bottom: -15px;
   }
+  .fleche
+  {
+    font-size:15pt;
+  }
 }
 
 @media (min-width: 768px) {
@@ -682,6 +686,10 @@ pre code {
     max-width: 720px;
     top: -30px;
     margin-bottom: -30px;
+  }
+  .fleche
+  {
+    font-size:22pt;
   }
 }
 
@@ -694,6 +702,10 @@ pre code {
     top: -50px;
     margin-bottom: -50px;
   }
+  .fleche
+  {
+    font-size:28pt;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -704,6 +716,10 @@ pre code {
     max-width: 1140px;
     top: -75px;
     margin-bottom: -75px;
+  }
+  .fleche
+  {
+    font-size:32pt;
   }
 }
 
@@ -9418,4 +9434,24 @@ a.text-dark:focus, a.text-dark:hover {
 
 .modal .close {
   color: #000;
+}
+.dividergreen
+{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+background-color: #2c503f;
+height: 2px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.dividergray
+{
+width: 75%;
+margin-left: auto;
+margin-right: auto;
+background-color: #444;
+height: 2px;
+margin-top: 20px;
+margin-bottom: 30px;
 }
