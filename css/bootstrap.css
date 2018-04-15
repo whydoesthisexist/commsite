@@ -654,9 +654,23 @@ pre code {
   margin-left: auto;
 }
 
+.containeraccueil {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .containeraccueil {
+    max-width: 540px;
+    top: -15px;
+    margin-bottom: -15px;
   }
 }
 
@@ -664,17 +678,32 @@ pre code {
   .container {
     max-width: 720px;
   }
+  .containeraccueil {
+    max-width: 720px;
+    top: -30px;
+    margin-bottom: -30px;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+  .containeraccueil {
+    max-width: 960px;
+    top: -50px;
+    margin-bottom: -50px;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .containeraccueil {
+    max-width: 1140px;
+    top: -75px;
+    margin-bottom: -75px;
   }
 }
 
@@ -5046,7 +5075,7 @@ tbody.collapse.show {
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
   }
 }
 
