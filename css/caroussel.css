@@ -1222,8 +1222,7 @@ pre {
 }
 html,
 body {
-  height: auto;
-  min-height: 100vh;
+  min-height: 100%;
 }
 .cid-qBHwaBZAiY .navbar {
   background: #232323;
